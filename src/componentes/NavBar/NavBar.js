@@ -9,7 +9,7 @@ const NavBar=()=> {
             <h3 className="titulo-ecommerce">
                 Titulo
             </h3> 
-            <ItemListContainer greeting={'Bienvenido'}/>
+            
             </div>
             <CartWidget/>
             <div className="btn-categoria">
