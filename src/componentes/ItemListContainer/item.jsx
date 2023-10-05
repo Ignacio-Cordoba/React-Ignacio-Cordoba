@@ -1,11 +1,10 @@
-import ItemCount from "../ItemCount/ItemCount";
+import React from 'react'
 
 
-
-
-const ItemList = ({productos}) => {
+const Item=({productos}) =>{
     return(
-        <div  className="divprincipal-producto">
+        <div>
+ <div  className="divprincipal-producto">
             {productos.length > 0 &&
         productos.map((producto , index) => {
           return (
@@ -19,16 +18,17 @@ const ItemList = ({productos}) => {
             </picture>
             <footer>
             <p className="precio-producto">{producto.precio}</p>
+           
+            <ItemCount/> 
             <p className="stock-producto">{producto.stock}</p>
-            <ItemCount/>
             </footer>
           </div>
           );
         })}
         </div>
+        </div>
     )
 }
 
-export default ItemList
 
-
+export default Item
