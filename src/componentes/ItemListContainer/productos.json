@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "imagen": "imagenfacha",
+    "precio": "128",
+    "nombre": "pepito"
+  },
+  {
+    "id": 2,
+    "imagen": "imagenfacha",
+    "precio": "12",
+    "nombre": "pe2pito"
+  },
+  
+  {
+    "id": 2,
+    "imagen": "ima343genfacha",
+    "precio": "1432",
+    "nombre": "pe2pi34to"
+  }
+]

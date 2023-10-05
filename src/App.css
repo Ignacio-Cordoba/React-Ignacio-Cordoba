@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,600;1,100&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cartwidget-css{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.btn-categoria{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background:#fd611a;
+  height: 80px;
+  align-items: center;
+}
+
+.btn-categoria button{
+  height: 20px;
+   font-family: Libre Franklin;
+  display: flex;
+  align-items: center;
+  border: whitesmoke;
+  background-color:#fd611a;
+  font-size: 20px;
+}
+
+.btn-categoria button:hover{
+  color: white;
+}
+
+
+.header-css{
+  background-color: #fd611a;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.titulo-ecommerce{
+  margin-left: 5%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cartwidget-css img{
+  height: 16px;
+  width: 21px;
+}
+
+.cartwidget-css{
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.div-producto{
+  border: #2a1004 solid;
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ 
+}
+
+.imagen-producto{
+  display: flex;
+}
+.nombre-producto{display: flex;
+}
+.precio-producto{display: flex;
+
+}
