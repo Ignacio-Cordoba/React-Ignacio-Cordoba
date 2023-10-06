@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import ItemListContainer from "../ItemListContainer/ItemListContainer"
 import CartWidget from "./CartWidget/CartWidget"
 
@@ -13,11 +14,12 @@ const NavBar=()=> {
             </div>
             <CartWidget/>
             <div className="btn-categoria">
-            <button>Ingrese su categoria</button>
-            <button>Ingrese su categoria</button>
-            <button>Ingrese su categoria</button>
-            <button>Ingrese su categoria</button>
-            <button>Ingrese su categoria</button>
+            
+            <button><Link className="btn-categoria" to="/">Inicio</Link></button>
+            <button><Link to="/productos/bujias">Bujias</Link></button>
+            <button><Link to="/productos/lamparas">Lamparas</Link></button>
+            <button><Link to="/productos/arranques">Arranques</Link></button>
+            
 
             </div>
            
