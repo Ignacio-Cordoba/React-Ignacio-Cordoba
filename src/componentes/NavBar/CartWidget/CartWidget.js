@@ -11,7 +11,7 @@ const {cantidadCarrito} = useContext(CartContext)
 
 
     return(<div className='cartwidget-css'>
-        <Link to="/carrito">
+        <Link className='carrito-link' to="/carrito">
           
             <img src={cart}/> <span className='numerito-carrito'>{cantidadCarrito()}</span> 
             
