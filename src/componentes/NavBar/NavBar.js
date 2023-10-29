@@ -1,25 +1,29 @@
 import { Link } from "react-router-dom"
 import ItemListContainer from "../ItemListContainer/ItemListContainer"
 import CartWidget from "./CartWidget/CartWidget"
-
+import "./Navbar.css"
 
 const NavBar=()=> {
     return(
         <nav>
             <div className="header-css">
             <h3 className="titulo-ecommerce">
-                Titulo
+                CordobaShop<li className="li-navbar"><CartWidget/></li>
+                
             </h3> 
             
             </div>
-            <CartWidget/>
+          
             <div className="btn-categoria">
-            
-            <button><Link className="btn-categoria" to="/">Inicio</Link></button>
-            <button><Link to="/productos/bujias">Bujias</Link></button>
-            <button><Link to="/productos/lamparas">Lamparas</Link></button>
-            <button><Link to="/productos/arranques">Arranques</Link></button>
-            
+            <ul className="ul-navbar">
+            <li className="li-navbar"><Link className="link-navbar" to="/">Inicio</Link></li>
+            <li className="li-navbar"><Link className="link-navbar"  to="/productos/Bujias">Bujias</Link></li>
+            <li className="li-navbar" ><Link className="link-navbar"  to="/productos/Lamparas">Lamparas</Link></li>
+            <li className="li-navbar"><Link  className="link-navbar"  to="/productos/Arranques">Arranques</Link></li>
+            <li className="li-navbar"><Link className="link-navbar"  to="/contacto">Contacto</Link></li>
+            <li className="li-navbar"><Link className="link-navbar"  to="/carrito">Carrito</Link></li>
+            <li className="li-navbar"><Link  className="link-navbar"  to="/Chekout">Chekout</Link></li>
+            </ul>
 
             </div>
            

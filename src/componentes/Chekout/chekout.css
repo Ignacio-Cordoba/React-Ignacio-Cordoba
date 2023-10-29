@@ -1,0 +1,56 @@
+/* chekout.css */
+.container-chekout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+    height: 80%;
+  }
+  
+  .form-chekout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .h1-chekout {
+    font-size: 28px;
+    color: #333; 
+    margin-bottom: 20px;
+  }
+  
+  .nombre-chekout,
+  .email-chekout,
+  .telefono-chekout {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-chekout {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .h1-chekout, .chekout-p {
+    font-size: 20px;
+    color: #007BFF; 
+  }
+  
+  .button-chekout:hover {
+    background-color: #0056b3; 
+  }
+  

@@ -1,0 +1,47 @@
+
+nav {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 0;
+}
+
+
+.header-css {
+  text-align:start;
+}
+
+.titulo-ecommerce {
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.ul-navbar {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+
+.li-navbar {
+  display: inline;
+  margin: 0 15px;
+}
+
+
+.link-navbar {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.link-navbar:hover {
+  color: #023973;
+}
+
+.numerito-carrito{
+font-size: 12px;
+text-decoration: none
+}

@@ -1,0 +1,72 @@
+
+.h1-carrito {
+    font-size: 28px;
+    text-align: center;
+    margin: 20px 0;
+    color: #333; 
+  }
+  
+  .div-carrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .nombre-carrito {
+    font-size: 20px;
+    color: #007BFF; 
+  }
+  
+  .p-carrito {
+    font-size: 16px;
+    color: #555; 
+  }
+  
+  .h3-carrito {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF; 
+  }
+  
+  .button-carrito {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  
+  .link-carrito {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 10px;
+  }
+  
+  .link-carrito:hover,
+  .button-carrito:hover {
+    background-color: #0056b3; 
+  }
+  
+  .h2-carrito {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+    color: #555; 
+  }
+  
+  .imagen-carrito{
+    width: fit-content;
+    height: fit-content;
+  }
